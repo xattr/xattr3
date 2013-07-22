@@ -1,3 +1,6 @@
+WARNING: This repo is deprecated. https://github.com/xattr/xattr
+now supports Python 2.6+ and Python 3.3+ as of v0.7.2.
+
 xattr is a Python wrapper for Darwin's extended filesystem attributes
 
 Extended attributes extend the basic attributes of files and directories

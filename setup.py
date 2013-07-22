@@ -1,5 +1,15 @@
 #!/usr/bin/env python3
 
+import sys
+import time
+sys.stderr.write("""\
+[WARNING] This code is deprecated, you should use
+https://github.com/xattr/xattr as it now supports both Python 2.6+ and
+Python 3.3+.
+""")
+sys.stderr.flush()
+time.sleep(5)
+
 import ez_setup
 ez_setup.use_setuptools()
 
@@ -17,7 +27,7 @@ and Linux 2.6+. Experimental support is included for Solaris and FreeBSD.
 """
 
 CLASSIFIERS = [_f for _f in list(map(str.strip,
-"""                 
+"""
 Environment :: Console
 Intended Audience :: Developers
 License :: OSI Approved :: MIT License
